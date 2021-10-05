@@ -21,7 +21,7 @@
 ![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/profile.png)
 ### 登陆界面
 ![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/phoneLogin.png)
-![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/passwordLogin.png)
+![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/passswordLogin.png)
 ### 商家界面和购物车界面
 ![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/shop.png)
 ![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/shoprating.png)
