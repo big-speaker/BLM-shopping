@@ -6,7 +6,7 @@
 3) 使用 Vue 全家桶+ES6+Webpack 等前端最新最热的技术 
 4) 采用模块化、组件化、工程化的模式开发
 ## 项目技术栈
-1)前端技术栈：vue全家桶(包含：vue2.0、vue-router、vuex、vue-lazyload、vue-scroller)、better-scroll、swiper、moment、axios、ES6、webpack、vue-cli2.0、less   
+1)前端技术栈：vue全家桶(包含：vue2.0、vue-router、vuex、vue-lazyload、vue-scroller)、better-scroll、swiper、moment、axios、ES6、webpack、vue-cli2.0、less、flex   
 2)后端技术栈：node.js、express、bodyParser、session
 ## 项目界面
 ### 目录结构:
