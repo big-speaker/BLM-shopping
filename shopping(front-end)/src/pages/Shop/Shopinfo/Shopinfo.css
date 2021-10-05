@@ -1,0 +1,109 @@
+.allinfoBox {
+  position: absolute;
+  width: 100%;
+  height: 63vh;
+  top: 36vh;
+  overflow-y: scroll;
+}
+.allinfoBox .infoBox .senddataBox {
+  border-bottom: 20px solid #e6e6e6;
+}
+.allinfoBox .infoBox .senddataBox .sendTitle {
+  width: 95%;
+  text-align: left;
+  margin-left: 4%;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+  font-weight: bold;
+}
+.allinfoBox .infoBox .senddataBox .sendContent {
+  width: 80%;
+  text-align: left;
+  margin-left: 4%;
+  font-size: 12px;
+}
+.allinfoBox .infoBox .senddataBox .sendContent span {
+  background-color: #1296db;
+  border-radius: 4px;
+  color: white;
+  padding: 3px;
+}
+.allinfoBox .infoBox .senddataBox .sendPrice {
+  width: 80%;
+  text-align: left;
+  margin-left: 4%;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-size: 13px;
+}
+.allinfoBox .infoBox .serverdataBox {
+  width: 94%;
+  margin-left: 4%;
+  text-align: left;
+}
+.allinfoBox .infoBox .serverdataBox .serverTitle {
+  margin-top: 1.5vh;
+  font-weight: bold;
+  margin-bottom: 0.5vh;
+}
+.allinfoBox .infoBox .serverdataBox .serverItems {
+  margin-top: 1.5vh;
+  font-size: 13px;
+}
+.allinfoBox .infoBox .serverdataBox .serverItems span {
+  padding: 2px;
+  color: white;
+  border-radius: 3px;
+}
+.allinfoBox .infoBox .shoppictureBox {
+  border-top: 20px solid #e6e6e6;
+  border-bottom: 20px solid #e6e6e6;
+  width: 100%;
+  height: 20vh;
+  margin-top: 2vh;
+}
+.allinfoBox .infoBox .shoppictureBox .shoppictureBox2 .shoppictureTitle {
+  width: 80%;
+  margin-left: 3%;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-weight: bold;
+  text-align: left;
+}
+.allinfoBox .infoBox .shoppictureBox .shoppictureBox2 .shoppictureItem {
+  height: 13vh;
+  text-align: left;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+.allinfoBox .infoBox .shoppictureBox .shoppictureBox2 .shoppictureItem img {
+  width: 32vw;
+  height: 100%;
+  margin-left: 1vw;
+  margin-bottom: 1vw;
+}
+.allinfoBox .infoBox .infodataBox {
+  width: 92%;
+  margin-left: 3%;
+  text-align: left;
+  margin-bottom: 2vh;
+}
+.allinfoBox .infoBox .infodataBox .infodataTitle {
+  margin: 1vh 0;
+  font-weight: bold;
+}
+.allinfoBox .infoBox .infodataBox div {
+  border-bottom: 1px solid #ccc;
+  height: 3.5vh;
+  padding: 1vh 0;
+}
+.allinfoBox .infoBox .infodataBox div .leftS {
+  float: left;
+  font-size: 13px;
+  font-weight: bold;
+}
+.allinfoBox .infoBox .infodataBox div .rightS {
+  float: right;
+  font-weight: 100;
+  font-size: 13px;
+}

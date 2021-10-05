@@ -1,0 +1,232 @@
+.detailShop{
+    width:100%;
+    height:35vh;
+    position: absolute;
+    .shopIntroduce{
+        width:100%;
+        height:25vh;
+        position:absolute;
+        .backPage{
+            position:absolute;
+            width:10%;
+            top:0;
+            transform: rotate(180deg);
+            z-index: 5;
+        }
+        .bgImg{
+            width:100%;
+        }
+        .avaterBox{
+            position:absolute;
+            top:2%;
+            width:100%;
+            z-index: 3;
+            img{
+                width:20%;
+                border:0.51px solid #ccc;
+            }
+        }
+        .contentBox{
+            width:100%;
+            height:29vh;
+            border:1px solid #ccc;
+            position: absolute;
+            top:27%;
+            left:0;
+            background-color: white;
+            z-index:2;
+            .shopTitle{
+                margin-top:6vh;
+                img{
+                    width:8%;
+                }
+                .shopName{
+                    display:inline-block;
+                    width:40%;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    font-size: 20px;
+                }
+                .toButton{
+                    display:inline-block;
+                    width:5%;
+                    img{
+                        width:100%;
+                    }
+                }
+            }
+            .sendType{
+                margin-bottom:8px;
+                margin-top:5px;
+                div{
+                    display:inline-block;
+                    font-size:12px;
+                }
+            }
+            .discount{
+                width:80%;
+                margin-left:10%;
+                border:1px solid #ccc;
+                font-size: 13px;
+                .discountContent{
+                    position:relative;
+                    top:3px;
+                    display:inline-block;
+                    width:50%;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    margin-right:22px;
+                }
+                .discountNumber{
+                    width:30%;
+                    display: inline-block;
+                    margin-right: -10px;
+                    img{
+                        width:20%;
+                    }
+                }
+            }
+        }
+    }
+    .shopnavBox{
+        width:100%;
+        height:5vh;
+        display:flex;
+        position:absolute;
+        bottom:0;
+        z-index: 3;
+        .itemBox{
+            flex:1;
+            height:5vh;
+            .navItem{
+                text-decoration: none;
+                // color:black;
+            }
+        }
+    }
+    .slot1{
+        position:fixed;
+        top:0;
+        width:100%;
+        height:100%;
+        z-index: 100;
+        background-color: rgba(0,0,0,0.3);
+        .allContent{
+            width:90%;
+            height:35%;
+            border-radius: 5px;;
+            background-color: white;
+            margin-top:60%;
+            margin-left:5%;
+            .detailName{
+                display:inline-block;
+                margin-top:15px;
+                img{
+                    width:8%;
+                    position:relative;
+                    top:5px;
+                }
+                .shopName{
+                    display:inline-block;
+                    font-size: 17px;
+                    font-weight: bold;
+                }
+            }
+            .detailContent{
+                margin-top:7px;
+                .contentType{
+                    display:inline-block;
+                    margin:4px;
+                    .topBox{
+                        font-weight: bold;
+                        font-size:15px;
+                    }
+                    .bottomBox2{
+                        color:#ccc;
+                        font-size:12px;
+                    }
+                }
+            }
+            .centerTitle{
+                display:inline-block;
+                width: 90%;
+                color:#ccc;
+                font-size:12px;
+                margin:8px;
+            }
+            .content{
+                width:90%;
+                height:35%;
+                overflow-y: scroll;
+                margin-left:5%;
+                font-size: 12px;
+                text-align: left;
+            }
+        }
+        button{
+            margin-top:30px;
+            font-size: 14px;
+            color:white;
+            width:25px;
+            height:25px;
+            border-radius: 50%;
+            border:1px solid white;
+            background-color:rgba(0,0,0,0.1)
+        }
+    }
+    .slot2{
+        position:fixed;
+        top:0;
+        width:100%;
+        height:100%;
+        z-index: 100;
+        background-color: rgba(0,0,0,0.3);
+        .discountWindow{
+            width:100%;
+            height:40%;
+            position:absolute;
+            bottom:0;
+            background-color: white;
+            .discountTitle{
+                display:inline-block;
+                margin-top:10px;
+                margin-bottom: 10px;
+                width:95%;
+                height:15%;
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 10px;
+                span{
+                    float:right;
+                    margin-right:5px;
+                }
+            }
+            .allDiscount{
+                display:inline-block;
+                margin-left:8px;
+                width:95%;
+                height:70%;
+                overflow-y: scroll;
+                .discountItem{
+                    margin:7px;
+                    width:90%;
+                    text-align: left;
+                    .discountRight{
+                        display:inline-block;
+                        font-size:13px;
+                        color:white;
+                        width:13%;
+                        margin-right: 2px;
+                        text-align: center;
+                    }
+                    .discountLeft{
+                        display:inline-block;
+                        font-size:11px;
+                    }
+                }
+            }
+        }
+    }
+}

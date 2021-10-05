@@ -1,0 +1,217 @@
+ul,li{ padding:0;margin:0;list-style:none}
+.goodList{
+    width:100%;
+    height:56vh;
+    position:absolute;
+    top:36vh;
+    // border:solid;
+    .cartlistBox{
+        display:inline-block;
+        width:22%;
+        height:56vh;
+        overflow:hidden;
+        .cartList{
+            display: inline-block;
+            width:100%;
+            .cartItem{
+                width:100%;
+                height:7vh;
+                font-size: 12px;
+                font-weight: bold;
+                border-bottom:0.51px solid #ccc;
+                display:flex; 
+                align-items: center;
+                justify-content: center;
+                img{
+                    width:15%;
+                }
+            }
+        }
+    }
+    .foodlistBox{
+        display:inline-block;
+        width:70%;
+        height:56vh;
+        overflow:hidden;
+        .foodList{
+            .typeItem{
+                width:100%;
+                .foodType{
+                    display: inline-block;
+                    width:100%;
+                    background-color: #e6e6e6;
+                    text-align: left;
+                    padding-left: 10px;
+                }
+                .foodItem{
+                    width:100%;
+                    height:15vh;
+                    border-bottom:1px solid #ccc;
+                    .topFood{
+                        display:inline-block;
+                        text-align: left;
+                        width:100%;
+                        height:80%;
+                        .foodImg{
+                            display: inline-block;
+                            width:25%;
+                            height:80%;
+                            img{
+                                width:100%;
+                                height:100%;
+                                border-radius: 5px;
+                            }
+                        }
+                        .foodContent{
+                            display:inline-block;
+                            width:70%;
+                            height:50px;
+                            .foodName{
+                                font-weight: bold;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                            }
+                            .foodComment{
+                                font-size: 12px;
+                                margin-top: 5px;
+                            }
+                            .bottomFood{
+                                .foodPrice{
+                                    font-size: 14px;
+                                    color:red;
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                    }
+                    .foodAdd{
+                        display: inline-block;
+                        width:95%;
+                        text-align: right; 
+                    }
+                }
+            }
+        }
+    }
+    .buylistBox{
+        width:100%;
+        height:92vh;
+        position:fixed;
+        top:0;
+        left:0;
+        z-index: 4;
+        border:solid;
+        background-color: rgba(0, 0, 0, 0.5);
+        .buyContent{
+            display: inline-block;
+            width:100%;
+            background-color: white;
+            position:absolute;
+            bottom:0;
+            left:0;
+            .buyTitleBox{
+                display:inline-block;
+                width:100%;
+                margin-bottom:0;
+                border:1px solid #ccc;
+                height:4.5vh;
+                text-align: left;
+                background-color: #e6e6e6;
+                .buyTitle{
+                    display:inline-block;
+                    width:20%;
+                    height:100%;
+                    margin-left: 8px;
+                    font-size: 14px;;
+                }
+                .cancelList{
+                    display:inline-block;
+                    width:15%;
+                    height:100%;
+                    margin-left:57%;
+                    text-align: center;
+                    border-left: 1px solid #ccc;
+                    border-right: 1px solid #ccc;
+                }
+            }
+            .buyList{
+                // background-color: white;
+                // position:absolute;
+                // bottom:0;
+                margin-bottom:0;
+                .buyItem{
+                    display: flex;
+                    .buyName{
+                        flex:3;
+                        text-align: left;
+                        padding: 5px;
+                    }
+                    .buyPrice{
+                        flex:0.4;
+                        padding: 5px;
+                        color:red;
+                    }
+                    .foodAdd{
+                        flex:1;
+                        padding: 5px;
+
+                    }
+                }
+            }
+        }
+        .buylistTip{
+            background-color: white;
+            width:100%;
+            position:absolute;
+            bottom:0;
+        }
+    }
+    .bottomCart{
+        display:flex;
+        width:100%;
+        height:7vh;
+        background-color: black;;
+        .carticonBox{
+            flex:1;
+            height:100%;
+            img{
+                width:80%;
+            }
+            .cartCount{
+                display:inline-block;
+                width:4vw;
+                height:4vw;
+                border-radius: 50%;
+                position:relative;
+                background-color: red;
+                color:white;
+                font-size: 12px;;
+                top:-8vh;
+                left:3vw;
+            }
+        }
+        .cartpriceBox{
+            flex:4;
+            text-align: left;
+            color:white;
+            .sendPrice{
+                font-size: 13px;
+            }
+        }
+        .buyButton{
+            line-height: 12vw;
+            height:100%;
+            background-color:#707070 ;
+            flex:2;
+            color:white;
+        }
+        .checkOut{
+            line-height: 12vw;
+            height:100%;
+            background-color:#1296db ;
+            flex:2;
+            color:white;
+        }
+    }
+}

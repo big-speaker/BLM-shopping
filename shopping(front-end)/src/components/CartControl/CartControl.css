@@ -1,0 +1,14 @@
+.cartControl {
+  display: inline-block;
+}
+.cartControl div {
+  display: inline-block;
+}
+.cartControl .reduce {
+  font-weight: bold;
+  color: #1296db;
+}
+.cartControl .add {
+  font-weight: bold;
+  color: #1296db;
+}

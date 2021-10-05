@@ -1,0 +1,119 @@
+.neabyBox {
+  width: 100%;
+  height: 104vw;
+  margin-top: 6vw;
+}
+.neabyBox .neabyTitle {
+  margin-bottom: 1vw;
+  width: 100%;
+  height: 8%;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+.neabyBox .neabyTitle img {
+  width: 5%;
+  height: 60%;
+}
+.neabyBox .neabyTitle .titleContent {
+  position: relative;
+  height: 60%;
+  width: 20%;
+  display: inline-block;
+  font-size: 3vw;
+  color: #8a8a8a;
+  top: -3px;
+}
+.neabyBox .shopList {
+  overflow: auto;
+  width: 100%;
+  height: 89%;
+}
+.neabyBox .shopList .shopItem {
+  width: 100%;
+  height: 22%;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.neabyBox .shopList .shopItem .shopImg {
+  width: 19%;
+  height: 100%;
+}
+.neabyBox .shopList .shopItem .shopImg img {
+  width: 98%;
+  height: 90%;
+}
+.neabyBox .shopList .shopItem .shopContent {
+  width: 56%;
+  height: 100%;
+}
+.neabyBox .shopList .shopItem .shopContent .content1 {
+  width: 100%;
+  height: 40%;
+}
+.neabyBox .shopList .shopItem .shopContent .content1 img {
+  width: 15%;
+  height: 90%;
+  float: left;
+}
+.neabyBox .shopList .shopItem .shopContent .content1 .shopName {
+  display: inline-block;
+  width: 75%;
+  height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.neabyBox .shopList .shopItem .shopContent .content2 {
+  width: 100%;
+  height: 35%;
+  display: inline-block;
+}
+.neabyBox .shopList .shopItem .shopContent .content2 .starBox {
+  width: 35%;
+  height: 100%;
+  display: inline-block;
+}
+.neabyBox .shopList .shopItem .shopContent .content2 .starCore {
+  display: inline-block;
+  width: 15%;
+  color: orange;
+  font-size: 12px;
+  text-align: left;
+}
+.neabyBox .shopList .shopItem .shopContent .content2 .orderNumber {
+  display: inline-block;
+  width: 35%;
+  height: 100%;
+  font-size: 12px;
+  text-align: left;
+}
+.neabyBox .shopList .shopItem .shopContent .content3 {
+  width: 100%;
+  height: 25%;
+  font-size: 2vw;
+  text-align: left;
+}
+.neabyBox .shopList .shopItem .shopLevel {
+  flex: 1;
+  height: 100%;
+}
+.neabyBox .shopList .shopItem .shopLevel .level1 {
+  width: 75%;
+  height: 22%;
+  display: flex;
+  margin-top: 3vw;
+  margin-left: 2vw;
+}
+.neabyBox .shopList .shopItem .shopLevel .level1 .fontBox {
+  flex: 1;
+  height: 100%;
+  border: 1px solid #ccc;
+  font-size: 1vw;
+}
+.neabyBox .shopList .shopItem .shopLevel .level2 {
+  margin-top: 4vw;
+  width: 90%;
+  border: 1px solid #1296db;
+  color: #1296db;
+  font-size: 1vw;
+}

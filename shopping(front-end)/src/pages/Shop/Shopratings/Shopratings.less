@@ -1,0 +1,186 @@
+.ratingsBox{
+    display:inline-block;
+    width:100%;
+    height:62.5vh;
+    // border:solid;
+    position:absolute;
+    left:0px;
+    top:36.5vh;
+    overflow-y: scroll;
+    .coreBox{
+        width:100%;
+        height:21vh;
+        border-bottom:2px solid #ccc;
+        display:flex;
+        .leftCore{
+            flex:1.1;
+            height:100%;
+            // border:solid;
+            border-right: 1px solid #ccc;
+            .sumCore{
+                margin-top:2.5vh;
+                width:100%;
+                color:orange;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .suncoreLabel{
+                margin-top:1vh;
+                font-size: 12px;
+                font-weight: bold;
+            }
+            .nearbyshopCore{
+                margin-top:1vh;
+                font-size: 11px;
+                font-weight: 100;
+            }
+        }
+        .rightCore{
+            flex:2;
+            .attitudecoreBox{
+                width:100%;
+                height:5vh;
+                text-align: left;
+                margin-top:4vh;
+                .starBox{
+                    display:inline-block;
+                    width:55%;
+                    height:100%;
+                    margin-left:5% ;
+                }
+                .attitudeCore{
+                    display: inline-block;
+                    text-align: left;
+                    width:35%;
+                    height:100%;
+                    font-size: 12px;;
+                    span{
+                        color:orange;
+                    }
+                }
+            }
+            .goodcoreBox{
+                width:100%;
+                height:5vh;
+                text-align: left;
+                .starBox{
+                    display:inline-block;
+                    width:55%;
+                    height:100%;
+                    margin-left:5% ;
+                }
+                .goodCore{
+                    display: inline-block;
+                    text-align: left;
+                    width:35%;
+                    height:100%;
+                    font-size: 12px;;
+                    span{
+                        color:orange;
+                    }
+                }
+            }
+            .sendtimeBox{
+                width:100%;
+                height:4vh;
+                text-align: left;
+                .sendtimeLabel{
+                    display:inline-block;
+                    width:40%;
+                    height:100%;
+                    font-size: 13px;
+                    font-weight: bold;
+                    margin-left: 2vh;
+                }
+                .sendTime{
+                    display:inline-block;
+                    width:30%;
+                    height:100%;
+                    font-size: 10px;
+                    font-weight: bold;
+                    color:#ccc;
+                }
+            }
+        }
+    }
+    .ratingcontentBox{
+        .ratingNav{
+            width:100%;
+            height:11vh;
+            // border:solid;
+            text-align: left;
+            button{
+                width:20%;
+                height:4.5vh;
+                margin:2vh;
+                font-size: 12px;
+                // background-color: #ccc;
+                border:0;
+            }
+        }
+        .raitnglabelBox{
+            width:100%;
+            height:5vh;
+            border-bottom:1px solid #ccc;
+            display: flex;
+            .labelImg{
+                flex:1;
+                height:100%;
+                img{
+                    width:65%;
+                }
+            }
+            .ratingLabel{
+                text-align: left;
+                flex:9
+            }
+        }
+        .ratingsList{
+            .ratingsItem{
+                width:100%;
+                height:17vh;
+                margin-top:1vh;
+                margin-bottom: 1vh;;
+                border-bottom:1px solid #ccc;
+                .ratingstopBox{
+                    width:95%;
+                    height:8vh;
+                    margin-left:2%;
+                    display: flex;
+                    .userImg{
+                        flex:1;
+                        height:100%;
+                        margin-right: 4px;
+                        img{
+                            width:100%;
+                            border-radius: 50%;
+                        }
+                    }
+                    .userData{
+                        flex:3;
+                        text-align: left;
+                        .userName{
+                            font-size: 13px;;
+                        }
+                        .userCore{
+                            width:70%;
+                            height:50%;
+                        }
+                    }
+                    .userTime{
+                        flex:4;
+                        text-align: right;
+                        font-size: 12px;
+                    }
+                }
+                .ratingsbottomBox{
+                    width:80%;
+                    // border:solid;
+                    text-align: left;
+                    margin-left: 14.5%;
+                    .ratingsContent{}
+                }
+            }
+        }
+    }
+}

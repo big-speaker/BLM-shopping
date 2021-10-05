@@ -1,0 +1,74 @@
+.bottomBox {
+  width: 100%;
+  height: 8%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border: 0;
+  display: flex;
+  z-index: 5;
+}
+.bottomBox .msiteBox {
+  flex: 1;
+}
+.bottomBox .msiteBox .iconBox {
+  width: 100%;
+  height: 50%;
+  margin-top: 5%;
+}
+.bottomBox .msiteBox .iconBox img {
+  width: 60%;
+  height: 100%;
+}
+.bottomBox .msiteBox .iconName {
+  font-size: 5vw;
+  font-weight: bold;
+}
+.bottomBox .searchBox {
+  flex: 1;
+}
+.bottomBox .searchBox .iconBox {
+  width: 100%;
+  height: 50%;
+  margin-top: 5%;
+}
+.bottomBox .searchBox .iconBox img {
+  width: 40%;
+  height: 100%;
+}
+.bottomBox .searchBox .iconName {
+  font-size: 5vw;
+  font-weight: bold;
+}
+.bottomBox .orderBox {
+  flex: 1;
+}
+.bottomBox .orderBox .iconBox {
+  width: 100%;
+  height: 50%;
+  margin-top: 5%;
+}
+.bottomBox .orderBox .iconBox img {
+  width: 40%;
+  height: 100%;
+}
+.bottomBox .orderBox .iconName {
+  font-size: 5vw;
+  font-weight: bold;
+}
+.bottomBox .profileBox {
+  flex: 1;
+}
+.bottomBox .profileBox .iconBox {
+  width: 100%;
+  height: 50%;
+  margin-top: 5%;
+}
+.bottomBox .profileBox .iconBox img {
+  width: 40%;
+  height: 100%;
+}
+.bottomBox .profileBox .iconName {
+  font-size: 5vw;
+  font-weight: bold;
+}

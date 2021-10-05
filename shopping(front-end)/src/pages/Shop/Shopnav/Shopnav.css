@@ -1,0 +1,231 @@
+.detailShop {
+  width: 100%;
+  height: 35vh;
+  position: absolute;
+}
+.detailShop .shopIntroduce {
+  width: 100%;
+  height: 25vh;
+  position: absolute;
+}
+.detailShop .shopIntroduce .backPage {
+  position: absolute;
+  width: 10%;
+  top: 0;
+  transform: rotate(180deg);
+  z-index: 5;
+}
+.detailShop .shopIntroduce .bgImg {
+  width: 100%;
+}
+.detailShop .shopIntroduce .avaterBox {
+  position: absolute;
+  top: 2%;
+  width: 100%;
+  z-index: 3;
+}
+.detailShop .shopIntroduce .avaterBox img {
+  width: 20%;
+  border: 0.51px solid #ccc;
+}
+.detailShop .shopIntroduce .contentBox {
+  width: 100%;
+  height: 29vh;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 27%;
+  left: 0;
+  background-color: white;
+  z-index: 2;
+}
+.detailShop .shopIntroduce .contentBox .shopTitle {
+  margin-top: 6vh;
+}
+.detailShop .shopIntroduce .contentBox .shopTitle img {
+  width: 8%;
+}
+.detailShop .shopIntroduce .contentBox .shopTitle .shopName {
+  display: inline-block;
+  width: 40%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 20px;
+}
+.detailShop .shopIntroduce .contentBox .shopTitle .toButton {
+  display: inline-block;
+  width: 5%;
+}
+.detailShop .shopIntroduce .contentBox .shopTitle .toButton img {
+  width: 100%;
+}
+.detailShop .shopIntroduce .contentBox .sendType {
+  margin-bottom: 8px;
+  margin-top: 5px;
+}
+.detailShop .shopIntroduce .contentBox .sendType div {
+  display: inline-block;
+  font-size: 12px;
+}
+.detailShop .shopIntroduce .contentBox .discount {
+  width: 80%;
+  margin-left: 10%;
+  border: 1px solid #ccc;
+  font-size: 13px;
+}
+.detailShop .shopIntroduce .contentBox .discount .discountContent {
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 22px;
+}
+.detailShop .shopIntroduce .contentBox .discount .discountNumber {
+  width: 30%;
+  display: inline-block;
+  margin-right: -10px;
+}
+.detailShop .shopIntroduce .contentBox .discount .discountNumber img {
+  width: 20%;
+}
+.detailShop .shopnavBox {
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+}
+.detailShop .shopnavBox .itemBox {
+  flex: 1;
+  height: 5vh;
+}
+.detailShop .shopnavBox .itemBox .navItem {
+  text-decoration: none;
+}
+.detailShop .slot1 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.detailShop .slot1 .allContent {
+  width: 90%;
+  height: 35%;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 60%;
+  margin-left: 5%;
+}
+.detailShop .slot1 .allContent .detailName {
+  display: inline-block;
+  margin-top: 15px;
+}
+.detailShop .slot1 .allContent .detailName img {
+  width: 8%;
+  position: relative;
+  top: 5px;
+}
+.detailShop .slot1 .allContent .detailName .shopName {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: bold;
+}
+.detailShop .slot1 .allContent .detailContent {
+  margin-top: 7px;
+}
+.detailShop .slot1 .allContent .detailContent .contentType {
+  display: inline-block;
+  margin: 4px;
+}
+.detailShop .slot1 .allContent .detailContent .contentType .topBox {
+  font-weight: bold;
+  font-size: 15px;
+}
+.detailShop .slot1 .allContent .detailContent .contentType .bottomBox2 {
+  color: #ccc;
+  font-size: 12px;
+}
+.detailShop .slot1 .allContent .centerTitle {
+  display: inline-block;
+  width: 90%;
+  color: #ccc;
+  font-size: 12px;
+  margin: 8px;
+}
+.detailShop .slot1 .allContent .content {
+  width: 90%;
+  height: 35%;
+  overflow-y: scroll;
+  margin-left: 5%;
+  font-size: 12px;
+  text-align: left;
+}
+.detailShop .slot1 button {
+  margin-top: 30px;
+  font-size: 14px;
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.detailShop .slot2 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.detailShop .slot2 .discountWindow {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+}
+.detailShop .slot2 .discountWindow .discountTitle {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 95%;
+  height: 15%;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.detailShop .slot2 .discountWindow .discountTitle span {
+  float: right;
+  margin-right: 5px;
+}
+.detailShop .slot2 .discountWindow .allDiscount {
+  display: inline-block;
+  margin-left: 8px;
+  width: 95%;
+  height: 70%;
+  overflow-y: scroll;
+}
+.detailShop .slot2 .discountWindow .allDiscount .discountItem {
+  margin: 7px;
+  width: 90%;
+  text-align: left;
+}
+.detailShop .slot2 .discountWindow .allDiscount .discountItem .discountRight {
+  display: inline-block;
+  font-size: 13px;
+  color: white;
+  width: 13%;
+  margin-right: 2px;
+  text-align: center;
+}
+.detailShop .slot2 .discountWindow .allDiscount .discountItem .discountLeft {
+  display: inline-block;
+  font-size: 11px;
+}

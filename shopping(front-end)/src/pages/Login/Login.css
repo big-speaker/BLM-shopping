@@ -1,0 +1,174 @@
+.loginBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+}
+.loginBox .blackButton {
+  width: 100%;
+  height: 5%;
+  text-align: left;
+}
+.loginBox .blackButton img {
+  padding: 1vw;
+  width: 10%;
+  height: 90%;
+}
+.loginBox .loginTitle {
+  width: 100%;
+  height: 16%;
+  margin-top: 8%;
+  vertical-align: middle;
+  font-size: 12vw;
+  color: #1296db;
+  font-weight: 900;
+}
+.loginBox .loginType {
+  width: 100%;
+  height: 5%;
+  margin-bottom: 2vw;
+}
+.loginBox .loginType .leftLogin {
+  display: inline-block;
+  margin-right: 10vw;
+  color: #1296db;
+}
+.loginBox .loginType .rightLogin {
+  display: inline-block;
+  color: #1296db;
+}
+.loginBox .loginContent {
+  width: 100%;
+  height: 70%;
+}
+.loginBox .loginContent .loginNumber {
+  display: inline-block;
+  border: 2px solid #ccc;
+  width: 80%;
+  height: 6vh;
+  border-radius: 5px;
+}
+.loginBox .loginContent .loginNumber input {
+  width: 60%;
+  height: 80%;
+  border: 0 none;
+  outline: none;
+}
+.loginBox .loginContent .loginNumber .blockfont {
+  color: black;
+}
+.loginBox .loginContent .loginNumber button {
+  display: inline-block;
+  width: 35%;
+  height: 90;
+  border: 0;
+  color: #ccc;
+  background-color: white;
+  font-size: 2vw;
+}
+.loginBox .loginContent .loginNumber1 {
+  border: 2px solid #ccc;
+  width: 80%;
+  height: 6vh;
+  margin-left: 9vw;
+  border-radius: 5px;
+}
+.loginBox .loginContent .loginNumber1 input {
+  width: 95%;
+  height: 5vh;
+  border: 0 none;
+  outline: none;
+  margin-top: 1vw;
+}
+.loginBox .loginContent .loginNumber2 {
+  border: 2px solid #ccc;
+  width: 80%;
+  height: 6vh;
+  margin-left: 9vw;
+  border-radius: 5px;
+  margin-top: 4vw;
+}
+.loginBox .loginContent .loginNumber2 input {
+  position: relative;
+  top: -3vw;
+  width: 75%;
+  height: 80%;
+  border: 0 none;
+  outline: none;
+  margin: 0;
+}
+.loginBox .loginContent .loginNumber2 div {
+  display: inline-block;
+  width: 15%;
+  height: 90%;
+}
+.loginBox .loginContent .loginNumber2 div img {
+  width: 80%;
+  height: 100%;
+}
+.loginBox .loginContent .loginNumber3 {
+  border: 2px solid #ccc;
+  width: 80%;
+  height: 6vh;
+  margin-left: 9vw;
+  border-radius: 5px;
+  margin-top: 4vw;
+}
+.loginBox .loginContent .loginNumber3 input {
+  position: relative;
+  top: -3vw;
+  width: 50%;
+  height: 80%;
+  border: 0 none;
+  outline: none;
+  margin: 0;
+}
+.loginBox .loginContent .loginNumber3 div {
+  display: inline-block;
+  width: 40%;
+  height: 90%;
+}
+.loginBox .loginContent .loginNumber3 div img {
+  width: 90%;
+  height: 100%;
+}
+.loginBox .loginContent .loginPassword {
+  margin-top: 4vw;
+  border: 2px solid #ccc;
+  width: 80%;
+  height: 6vh;
+  margin-left: 9vw;
+  border-radius: 5px;
+}
+.loginBox .loginContent .loginPassword input {
+  width: 95%;
+  height: 80%;
+  border: 0 none;
+  outline: none;
+}
+.loginBox .loginContent .loginAgree {
+  margin-top: 2vw;
+  width: 83%;
+  height: 10%;
+  margin-left: 9vw;
+  font-size: 2px;
+  text-align: left;
+}
+.loginBox .loginContent .loginAgree span {
+  color: #1296db;
+}
+.loginBox .loginContent .loginButton {
+  width: 82%;
+  height: 10%;
+  margin-top: 5vw;
+  line-height: 11vw;
+  border-radius: 5px;
+  background-color: #1296db;
+  color: white;
+  border: 0;
+}
+.loginBox .loginContent .about {
+  margin-top: 3vw;
+  font-size: 2vw;
+}

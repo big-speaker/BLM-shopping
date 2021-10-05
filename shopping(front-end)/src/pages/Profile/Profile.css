@@ -1,0 +1,134 @@
+.toLoginBox {
+  display: inline-block;
+  position: fixed;
+  top: 52px;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  background-color: #1296db;
+  text-decoration: none;
+}
+.toLoginBox .imgBox {
+  width: 25%;
+  height: 85%;
+  display: inline-block;
+  position: relative;
+  left: -13px;
+}
+.toLoginBox .imgBox img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.toLoginBox .toLoginContent {
+  width: 50%;
+  display: inline-block;
+}
+.toLoginBox .toLoginContent .topText {
+  margin-top: 8vw;
+  text-align: left;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.toLoginBox .toLoginContent .bottomText {
+  text-align: left;
+  height: 40%;
+  font-size: 2vw;
+  color: white;
+  margin-top: 2vw;
+}
+.toLoginBox .toLoginContent .bottomText div {
+  display: inline-block;
+  position: relative;
+  top: -5px;
+}
+.toLoginBox .toLoginContent .bottomText img {
+  width: 15%;
+  height: 40%;
+  margin-top: 5px;
+}
+.toLoginBox .toLoginButton {
+  width: 10%;
+  height: 100%;
+  display: inline-block;
+  text-align: right;
+  position: relative;
+  top: -20px;
+  left: 5px;
+}
+.toLoginBox .toLoginButton img {
+  width: 100%;
+  height: 40%;
+}
+.allAccount {
+  width: 100%;
+  height: 50vh;
+  position: fixed;
+  top: 23%;
+  left: 0;
+}
+.allAccount .accountBox {
+  width: 100%;
+  height: 10vh;
+  border-bottom: 1px solid #ccc;
+}
+.allAccount .accountBox .myAccount {
+  display: inline-block;
+  margin-bottom: 3px;
+  width: 32%;
+}
+.allAccount .accountBox .myAccount .accountContent {
+  margin-top: 7px;
+  margin-bottom: 5px;
+  color: red;
+}
+.allAccount .accountBox .myAccount span {
+  color: black;
+}
+.allAccount .accountBox .myAccount button {
+  border: none;
+  width: 100%;
+  background-color: white;
+}
+.allAccount .myOrder {
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  height: 7vh;
+  text-align: left;
+}
+.allAccount .myOrder .imgBox {
+  display: inline-block;
+  width: 10%;
+  height: 100%;
+}
+.allAccount .myOrder .imgBox img {
+  width: 55%;
+  height: 45%;
+  margin-bottom: 40%;
+  margin-left: 35%;
+}
+.allAccount .myOrder .contentBox {
+  display: inline-block;
+  width: 82%;
+  height: 100%;
+}
+.allAccount .myOrder .contentBox .leftBox {
+  float: left;
+  margin-top: 4%;
+}
+.allAccount .myOrder .contentBox img {
+  float: right;
+  margin-top: 3.5%;
+  width: 7%;
+  height: 60%;
+}
+.allAccount button {
+  width: 100%;
+  height: 7vh;
+  border: none;
+  background-color: red;
+  border-radius: 5px;
+  margin-top: 2px;
+}

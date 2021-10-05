@@ -1,0 +1,176 @@
+.ratingsBox {
+  display: inline-block;
+  width: 100%;
+  height: 62.5vh;
+  position: absolute;
+  left: 0px;
+  top: 36.5vh;
+  overflow-y: scroll;
+}
+.ratingsBox .coreBox {
+  width: 100%;
+  height: 21vh;
+  border-bottom: 2px solid #ccc;
+  display: flex;
+}
+.ratingsBox .coreBox .leftCore {
+  flex: 1.1;
+  height: 100%;
+  border-right: 1px solid #ccc;
+}
+.ratingsBox .coreBox .leftCore .sumCore {
+  margin-top: 2.5vh;
+  width: 100%;
+  color: orange;
+  font-size: 25px;
+  font-weight: bold;
+}
+.ratingsBox .coreBox .leftCore .suncoreLabel {
+  margin-top: 1vh;
+  font-size: 12px;
+  font-weight: bold;
+}
+.ratingsBox .coreBox .leftCore .nearbyshopCore {
+  margin-top: 1vh;
+  font-size: 11px;
+  font-weight: 100;
+}
+.ratingsBox .coreBox .rightCore {
+  flex: 2;
+}
+.ratingsBox .coreBox .rightCore .attitudecoreBox {
+  width: 100%;
+  height: 5vh;
+  text-align: left;
+  margin-top: 4vh;
+}
+.ratingsBox .coreBox .rightCore .attitudecoreBox .starBox {
+  display: inline-block;
+  width: 55%;
+  height: 100%;
+  margin-left: 5% ;
+}
+.ratingsBox .coreBox .rightCore .attitudecoreBox .attitudeCore {
+  display: inline-block;
+  text-align: left;
+  width: 35%;
+  height: 100%;
+  font-size: 12px;
+}
+.ratingsBox .coreBox .rightCore .attitudecoreBox .attitudeCore span {
+  color: orange;
+}
+.ratingsBox .coreBox .rightCore .goodcoreBox {
+  width: 100%;
+  height: 5vh;
+  text-align: left;
+}
+.ratingsBox .coreBox .rightCore .goodcoreBox .starBox {
+  display: inline-block;
+  width: 55%;
+  height: 100%;
+  margin-left: 5% ;
+}
+.ratingsBox .coreBox .rightCore .goodcoreBox .goodCore {
+  display: inline-block;
+  text-align: left;
+  width: 35%;
+  height: 100%;
+  font-size: 12px;
+}
+.ratingsBox .coreBox .rightCore .goodcoreBox .goodCore span {
+  color: orange;
+}
+.ratingsBox .coreBox .rightCore .sendtimeBox {
+  width: 100%;
+  height: 4vh;
+  text-align: left;
+}
+.ratingsBox .coreBox .rightCore .sendtimeBox .sendtimeLabel {
+  display: inline-block;
+  width: 40%;
+  height: 100%;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 2vh;
+}
+.ratingsBox .coreBox .rightCore .sendtimeBox .sendTime {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  font-size: 10px;
+  font-weight: bold;
+  color: #ccc;
+}
+.ratingsBox .ratingcontentBox .ratingNav {
+  width: 100%;
+  height: 11vh;
+  text-align: left;
+}
+.ratingsBox .ratingcontentBox .ratingNav button {
+  width: 20%;
+  height: 4.5vh;
+  margin: 2vh;
+  font-size: 12px;
+  border: 0;
+}
+.ratingsBox .ratingcontentBox .raitnglabelBox {
+  width: 100%;
+  height: 5vh;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+.ratingsBox .ratingcontentBox .raitnglabelBox .labelImg {
+  flex: 1;
+  height: 100%;
+}
+.ratingsBox .ratingcontentBox .raitnglabelBox .labelImg img {
+  width: 65%;
+}
+.ratingsBox .ratingcontentBox .raitnglabelBox .ratingLabel {
+  text-align: left;
+  flex: 9;
+}
+.ratingsBox .ratingcontentBox .ratingsList .ratingsItem {
+  width: 100%;
+  height: 17vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  border-bottom: 1px solid #ccc;
+}
+.ratingsBox .ratingcontentBox .ratingsList .ratingsItem .ratingstopBox {
+  width: 95%;
+  height: 8vh;
+  margin-left: 2%;
+  display: flex;
+}
+.ratingsBox .ratingcontentBox .ratingsList .ratingsItem .ratingstopBox .userImg {
+  flex: 1;
+  height: 100%;
+  margin-right: 4px;
+}
+.ratingsBox .ratingcontentBox .ratingsList .ratingsItem .ratingstopBox .userImg img {
+  width: 100%;
+  border-radius: 50%;
+}
+.ratingsBox .ratingcontentBox .ratingsList .ratingsItem .ratingstopBox .userData {
+  flex: 3;
+  text-align: left;
+}
+.ratingsBox .ratingcontentBox .ratingsList .ratingsItem .ratingstopBox .userData .userName {
+  font-size: 13px;
+}
+.ratingsBox .ratingcontentBox .ratingsList .ratingsItem .ratingstopBox .userData .userCore {
+  width: 70%;
+  height: 50%;
+}
+.ratingsBox .ratingcontentBox .ratingsList .ratingsItem .ratingstopBox .userTime {
+  flex: 4;
+  text-align: right;
+  font-size: 12px;
+}
+.ratingsBox .ratingcontentBox .ratingsList .ratingsItem .ratingsbottomBox {
+  width: 80%;
+  text-align: left;
+  margin-left: 14.5%;
+}

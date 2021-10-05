@@ -1,0 +1,213 @@
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.goodList {
+  width: 100%;
+  height: 56vh;
+  position: absolute;
+  top: 36vh;
+}
+.goodList .cartlistBox {
+  display: inline-block;
+  width: 22%;
+  height: 56vh;
+  overflow: hidden;
+}
+.goodList .cartlistBox .cartList {
+  display: inline-block;
+  width: 100%;
+}
+.goodList .cartlistBox .cartList .cartItem {
+  width: 100%;
+  height: 7vh;
+  font-size: 12px;
+  font-weight: bold;
+  border-bottom: 0.51px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goodList .cartlistBox .cartList .cartItem img {
+  width: 15%;
+}
+.goodList .foodlistBox {
+  display: inline-block;
+  width: 70%;
+  height: 56vh;
+  overflow: hidden;
+}
+.goodList .foodlistBox .foodList .typeItem {
+  width: 100%;
+}
+.goodList .foodlistBox .foodList .typeItem .foodType {
+  display: inline-block;
+  width: 100%;
+  background-color: #e6e6e6;
+  text-align: left;
+  padding-left: 10px;
+}
+.goodList .foodlistBox .foodList .typeItem .foodItem {
+  width: 100%;
+  height: 15vh;
+  border-bottom: 1px solid #ccc;
+}
+.goodList .foodlistBox .foodList .typeItem .foodItem .topFood {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  height: 80%;
+}
+.goodList .foodlistBox .foodList .typeItem .foodItem .topFood .foodImg {
+  display: inline-block;
+  width: 25%;
+  height: 80%;
+}
+.goodList .foodlistBox .foodList .typeItem .foodItem .topFood .foodImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.goodList .foodlistBox .foodList .typeItem .foodItem .topFood .foodContent {
+  display: inline-block;
+  width: 70%;
+  height: 50px;
+}
+.goodList .foodlistBox .foodList .typeItem .foodItem .topFood .foodContent .foodName {
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.goodList .foodlistBox .foodList .typeItem .foodItem .topFood .foodContent .foodComment {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.goodList .foodlistBox .foodList .typeItem .foodItem .topFood .foodContent .bottomFood .foodPrice {
+  font-size: 14px;
+  color: red;
+  display: inline-block;
+}
+.goodList .foodlistBox .foodList .typeItem .foodItem .foodAdd {
+  display: inline-block;
+  width: 95%;
+  text-align: right;
+}
+.goodList .buylistBox {
+  width: 100%;
+  height: 92vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  border: solid;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.goodList .buylistBox .buyContent {
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.goodList .buylistBox .buyContent .buyTitleBox {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0;
+  border: 1px solid #ccc;
+  height: 4.5vh;
+  text-align: left;
+  background-color: #e6e6e6;
+}
+.goodList .buylistBox .buyContent .buyTitleBox .buyTitle {
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  margin-left: 8px;
+  font-size: 14px;
+}
+.goodList .buylistBox .buyContent .buyTitleBox .cancelList {
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+  margin-left: 57%;
+  text-align: center;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.goodList .buylistBox .buyContent .buyList {
+  margin-bottom: 0;
+}
+.goodList .buylistBox .buyContent .buyList .buyItem {
+  display: flex;
+}
+.goodList .buylistBox .buyContent .buyList .buyItem .buyName {
+  flex: 3;
+  text-align: left;
+  padding: 5px;
+}
+.goodList .buylistBox .buyContent .buyList .buyItem .buyPrice {
+  flex: 0.4;
+  padding: 5px;
+  color: red;
+}
+.goodList .buylistBox .buyContent .buyList .buyItem .foodAdd {
+  flex: 1;
+  padding: 5px;
+}
+.goodList .buylistBox .buylistTip {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.goodList .bottomCart {
+  display: flex;
+  width: 100%;
+  height: 7vh;
+  background-color: black;
+}
+.goodList .bottomCart .carticonBox {
+  flex: 1;
+  height: 100%;
+}
+.goodList .bottomCart .carticonBox img {
+  width: 80%;
+}
+.goodList .bottomCart .carticonBox .cartCount {
+  display: inline-block;
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  position: relative;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  top: -8vh;
+  left: 3vw;
+}
+.goodList .bottomCart .cartpriceBox {
+  flex: 4;
+  text-align: left;
+  color: white;
+}
+.goodList .bottomCart .cartpriceBox .sendPrice {
+  font-size: 13px;
+}
+.goodList .bottomCart .buyButton {
+  line-height: 12vw;
+  height: 100%;
+  background-color: #707070;
+  flex: 2;
+  color: white;
+}
+.goodList .bottomCart .checkOut {
+  line-height: 12vw;
+  height: 100%;
+  background-color: #1296db;
+  flex: 2;
+  color: white;
+}

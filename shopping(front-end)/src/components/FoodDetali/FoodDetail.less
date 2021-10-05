@@ -1,0 +1,85 @@
+.foodDetail{
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.05);
+    .topfoodBox{
+        display:inline-block;
+        width:80vw;
+        height:30vh;
+        background-color: white;
+        position: relative;
+        margin-top:30vh;
+        .imgBox{
+            width:80vw;
+            height:30vh;
+            img{
+                width:100%;
+            }
+        }
+        .closeButton{
+            display:inline-block;
+            width:10%;
+            height:10%;
+            position: absolute;
+            top:0;
+            left:0;
+            img{
+                width:100%;
+                transform: rotate(180deg);
+            }
+        }
+        .foodCombination{
+            display:inline-block;
+            width:90%;
+            height:10%;
+            text-align: left;
+            color:white;
+            position:absolute;
+            font-size: 13px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            bottom: 1%;
+            left:3%;
+        }
+    }
+    .bottomfoodBox{
+        display:inline-block;
+        width:80vw;
+        height:15vh;
+        background-color: white;
+        div{
+            display:inline-block;
+            width:90%;
+            margin-left:7%;
+            text-align: left;
+        }
+        .foodName{
+            font-weight: bold;
+            height:4vh;
+            margin-top:3vh;
+        }
+        .foodComment{
+            font-weight: 100;
+            font-size: 13px;;
+        }
+        .foodPrice{
+            display:inline-block;
+            color:red;
+            height:4vh;
+            margin-top:1vh;
+            font-size: 14px;
+        }
+    }
+    .AddCount{
+        display:inline-block;
+        width:20%;
+        position:relative;
+        top:-4vh;
+        right:-25vw;
+    }
+}
