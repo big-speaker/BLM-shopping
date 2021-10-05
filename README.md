@@ -9,20 +9,27 @@
 1)前端技术栈：vue全家桶(包含：vue2.0、vue-router、vuex、vue-lazyload、vue-scroller)、better-scroll、swiper、moment、axios、ES6、webpack、vue-cli2.0、less   
 2)后端技术栈：node.js、express、bodyParser、session
 ## 项目界面
-### 目录结构
+### 目录结构:
 ![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/direction.png)
-### 首页
+
+
+### 首页:
 ![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/msite.png)
-### 搜索界面
+
+### 搜索界面:
 ![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/search.png)
-### 订单界面
+
+### 订单界面:
 ![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/order.png)
-### 个人界面
+
+### 个人界面:
 ![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/profile.png)
-### 登陆界面
+
+### 登陆界面:
 ![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/phoneLogin.png)
 ![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/passswordLogin.png)
-### 商家界面和购物车界面
+
+### 商家界面和购物车界面:
 ![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/shop.png)
 ![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/shoprating.png)
 ![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/shopinfo.png)
