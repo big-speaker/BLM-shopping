@@ -9,3 +9,17 @@
 1)前端技术栈：vue全家桶(包含：vue2.0、vue-router、vuex、vue-lazyload、vue-scroller)、better-scroll、swiper、moment、axios、ES6、webpack、vue-cli2.0、less   
 2)后端技术栈：node.js、express、bodyParser、session
 ## 项目界面
+### 首页
+
+### 搜索界面
+
+### 订单界面
+
+### 个人界面
+
+### 登陆界面
+<figure>
+  <img src="">
+  <img src="">
+</figure>
+### 商家界面和购物车界面
