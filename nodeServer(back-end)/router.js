@@ -6,6 +6,7 @@ var fs=require('fs')
 var express=require('express')
 var iofile=require('./iofile')
 const { response } = require('express')
+require('./database')
 
 
 var router=express.Router()
