@@ -7,7 +7,11 @@
 4) 采用模块化、组件化、工程化的模式开发
 ## 项目技术栈
 1)前端技术栈：vue全家桶(包含：vue2.0、vue-router、vuex、vue-lazyload、vue-scroller)、better-scroll、swiper、moment、axios、ES6、webpack、vue-cli2.0、less、flex   
-2)后端技术栈：node.js、express、bodyParser、session
+2)后端技术栈：node.js、express、bodyParser、mysql、session
+3)数据库：MySQL
+## 项目运行:
+1)运行后端项目：点击进入后端文件夹nodeServer(back-end) 打开命令行窗口输入:node app.js    
+2)运行前端项目：点击进入前端文件夹shopping(front-end)  打开命令行窗口输入:npm start
 ## 项目界面
 ### 目录结构:
 ![Alt text](https://github.com/big-speaker/BLM-shopping/blob/master/introduceImg/direction.png)
