@@ -1,6 +1,7 @@
 .searchnavBox {
   width: 100%;
   text-align: left;
+  margin-top: 9vh;
 }
 .searchnavBox .inputBox {
   display: inline-block;
